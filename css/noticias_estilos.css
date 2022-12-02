@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(46, 46, 46)
+}
+
+#principal p{
+    position: absolute;
+    top: 35px;
+    left: 920px;
+    font-size:24px;
+    color:white;
+}
+
+.cabecera {
+    width: 100%;
+    height: 130px;
+}
+
+.menu {
+    background-color: black;
+    width: 330px;
+    display: flex;
+    border-color: white;
+    border-radius: 5px;
+    margin: 0 auto; 
+}
+
+.menu article{
+    color:black;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.menu article a{
+    color: white;
+}
+
+#seccion1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#seccion2 {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+}
+
+aside {
+    background-color: white;
+    color: black;
+    font: 150%;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+article {
+    background-color: white;
+    color: black;
+    font-size:20px;
+    margin: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin:5px;
+    font-size:16px;
+    padding: 5px;
+}
+
+#contenedor-grupos {
+    flex-basis: 40%;
+    text-align: center;
+    height: 500px;
+}
+
+.formato-noticia {
+    font-size:16px;
+    font-style: italic;
+}
+
+.imagen {
+    width: 12%;
+    height: 12%;
+    float: left;
+    margin: 5px;
+}
+
+#saber-mas {
+    width: 8%;
+    height: 4%;
+    float: right;
+    margin: 5px;
+}
+
+#tituloNoticia {
+    font-size:20px;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#negrita {
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid;
+    margin-top: 50px;
+}
+
+a:visited {
+    color: black;
+}

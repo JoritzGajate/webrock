@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="utf-8"/>
+            <title>Página de contacto</title>
+            <link rel="stylesheet" href="css/contacto_estilos.css">
+        </head>
+        <body>
+            <header>
+                <img class="cabecera" src="img/cabecera.jpg"/>
+                <p>ROCK</p>
+                <section class="menu">
+                    <article><a href=".\index.html">Inicio</a></article>
+                    <article><a href=".\decadas.html">Décadas</a></article>
+                    <article><a href=".\noticias.html">Noticias</a></article>
+                    <article><a href=".\contacto.html">Contacto</a></article>
+                </section>  
+            </header>
+            <section class="contenedor">
+                <form action="mailto:jgajate@birt.eus" method="POST">
+                    <fieldset>
+                        <label for="fname">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre"><br>
+                        <label for="lname">Apellido:</label><br>
+                        <input type="text" id="apellido" name="apellido"><br>
+                        <textarea class="dar-margen" name="mensaje" rows="20" cols="30">Mensaje:</textarea>
+                        <input type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </section>
+            <footer>
+                <p>Joritz Gajate Mendizabal | Creative Commons</p>
+            </footer>
+        </body>
+    </html>
